@@ -1,0 +1,6 @@
+bottles =99
+for x in range(99,0,-1):
+  print(f"{x}bottles of beer on the wall \n ")
+  print(f"{x}bottles of beer.\n")
+  print(f"Take one down, pass it around.\n")
+  print(f"{x-1}bottles of beer on the wall.\n \n \n" )
